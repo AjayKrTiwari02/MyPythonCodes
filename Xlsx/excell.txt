@@ -1,0 +1,4 @@
+1.install "pip install openpyxl"
+2.install"pip install xlsxwriter"
+
+excell file extention:Book.xlsx    (file)
