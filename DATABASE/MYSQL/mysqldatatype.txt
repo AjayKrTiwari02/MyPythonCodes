@@ -1,0 +1,14 @@
+DATA TYPE:
+
+int ->(11numbers)
+big int->(20numbers)
+text  ->(0-6000char)  
+varchar ->(0-255char)
+longtext
+date ->(yyyy-mm-dd)->(2010-08-12)
+dateTime 
+time stamp->(yyyy-mm-dd,ha-min-ss)
+tinyint-> (3numbers )
+time->(hh-mm-ss)
+year->(yyyy)
+

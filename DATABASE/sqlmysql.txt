@@ -1,0 +1,6 @@
+1.pip  pymsql
+   to install it ->" pip install pymysql"
+   if update required->"python.exe -m pip install --upgrade pip"2
+2.Xampp installation
+        download Xampp / MySQL WORK bench
+        browse-> localhost/phpmyadmin/ a
