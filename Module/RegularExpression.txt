@@ -1,0 +1,55 @@
+->A Regular Expression is a special sequence of charecters
+ that uses a search pattern to find A string or set of strings .
+->It can detect the presence or absence of a text by matching 
+it with a perticular pattern , and also can split a pattern 
+into one or more sub patterns.
+->Represented by (Regex)
+
+-> My emailid is aptech@123gmail.com 
+
+->Python provides  a "re" module whose primary function is 
+to offer a search,where it takes a regular expression and 
+a string.
+
+ ->"import re"-> is used to import the 're' module.
+ -> pattern set of string, phone number pattern set, web 
+ scraping
+
+ ->Special sequences do not match for the actual charecter in the 
+ string instead it tells  the specific location in the search
+  string where the match must ocuur . 
+ ->it makes it easier to write commonly used patterns .
+
+ Function:
+
+ re.findall()->Returns all non-overlapping matches of pattern in
+ string, as a list of string . the string is scanned left-to-right,
+ & matches are returned in the order found.
+
+ re.compile()->Regular expressions are compiled into pattern objects 
+ which have methods for various operations such as searching for
+ pattern matches or performing string substitutions.
+
+ re.split()->Split string by the occurrences of a character or a 
+ pattern ,upon finding that pattern, the remaining charecters from 
+ the string are returned as part of the resulting list.
+
+ re.sub()->The method returns a string where matched occurences 
+ are replaced with the content of replace variable .
+
+re.subn()-> subn() is similar to sub() in all ways, except in its 
+way of providing output.It returns a touple  with a count of the 
+total of replacement and the new string rather than just the string. 
+
+re.escape()-> Returns  string with all non-alphanumerics backslashed,
+this is useful if you want to match an arbitrary literal string that
+may have regular expressions matacharacters in it.
+
+re.search()-> This method either returns None (if the pattern does'nt
+matches), or a re.This method stops after the first match , so 
+this is the best suited for testing a regular expression more 
+than extracting data.
+
+Match Object :
+ A Match Object contains all the information about the search and 
+ result and if there is no match found then None will be returned.
