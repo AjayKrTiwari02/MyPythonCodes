@@ -1,0 +1,26 @@
+->Files are named location on disk to store information.
+->They are used to store data permanently.(txt)
+-> Data is stored in non-volatile memory.
+-> we  can retrive data whenever required.
+
+There are two type of files ->
+1.Text file :-Stores data in the form of characters. it is used 
+                to store data & strings.(jason)
+2.Binary File:- Stores data in the form of bytes.(audio,mp4)
+
+File handling means :-
+opening a file 
+performing some operatipon on it .
+closing file .
+deleting file .
+copy file .
+
+To storing data we can use two ways :
+1.File handling
+2. DataBase
+
+To Create & Write: 
+Systax:-[open(filename,mode='r',buffering,encoding=none,errors=none,closefd=true)]
+
+
+C:\\FileHandling\\filename.extension
