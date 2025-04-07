@@ -1,0 +1,17 @@
+INHERITANCE :
+
+
+
+1) In the programming in OOPS helps us to build program resusability.
+    The concept of reusability is supported using inheritance.
+2) We reuse the properties of an existing class by inheriting it.
+3) The existing class is called base class.
+4) The new class which is inherited from the base class is called derived class.
+5) There are different inheritance concept :
+a) Single Inheritance : A derived class is inherited with only one base class.
+b) Multiple Inheritance : multiple parent with one child.
+c)Hierarchical Inheritance : one parent multiple child.
+d)Multilevel Inheritance : one parent one child one grand child.
+e)Hybrid Inheritance:The process of combining more than one type of Inheritance 
+							together while deriving subclasses in a program is called 
+							a Hybrid Inheritance. 

@@ -1,0 +1,24 @@
+Object Oriented Programming:
+
+Object Oriented Programming Structure : 
+
+	Workes on the concept of classes and object.
+	A class is a blueprint or template to create object.
+	Converts the problem in object and builds data and function around the object.
+
+	classes : Its a blueprint from which indivisual objects are created.
+	object : Its an instance of a class , when class is defined , a template or info is also defined .			
+ 	Memory is allocated after object creation.
+
+	Data  Encapsulation :
+
+	Inheritance :
+
+	Polymorphism :
+
+	Exception handling:
+
+1) Better code reusability using object ,
+2) Data hiding use for builds secure system.
+3) Software complexity can be easily managed. 
+

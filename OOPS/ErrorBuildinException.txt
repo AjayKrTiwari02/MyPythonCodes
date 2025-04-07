@@ -1,0 +1,20 @@
+Errors & Built in exceptions can be brodly classified into two classes:-
+1.Sysntax Errors
+2.Logical Errors(Exception) can be handeled.
+
+Errors that can be handeled
+a.ZeroDivision Errors
+b.Name Error :(Undefined variable name)
+c.Type error:(concatination number with string)
+d.Value Error:(Input worng data [string value in place of int input])
+e.Index error:(Index out of range)
+f.Key error:(Dictionary [calling Undifined key])
+g.Module not found(calling Undifined module)
+h.import error(calling wrong Undifined function of a module)
+
+ ->Finally:Python provides a keyword finally, which is always executed after try and except blocks.
+  The finally block always executes after normal termination of try block or after try block
+   terminates due to some exception
+->pass :The pass statement is used as a placeholder for future code. When the pass statement is 
+executed, nothing happens, but you avoid getting an error when empty code is not allowed. Empty
+ code is not allowed in loops, function definitions, class definitions, or in if statements.

@@ -1,0 +1,7 @@
+An object variable Should not always be directly accessible.
+The methods can ensure the correct value are set.if an incorrect value is set ,then the  method 
+    can return an error.
+The private member is accessible only inside class. Define a private member by prefixing the 
+member name with two underscores.
+Ex->( __age)
+
